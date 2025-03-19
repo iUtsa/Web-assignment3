@@ -1,0 +1,122 @@
+.hall-bg {
+    background-color: #f9f1e7;
+}
+
+.tv-bg {
+    background-color: #dad9d9;
+}
+
+.tv-inner-bgcolor {
+    background-color: rgba(144, 198, 223, 0.979);
+}
+
+.game-bg {
+    background-color: #fef9df;
+}
+
+.tv-screen-bg {
+    background-color: rgb(105, 105, 105);
+}
+
+.table-outline1{
+    border: 1px solid black; 
+    width: 100%;
+}
+
+.door-color-lightyellow {
+    background-color: #dba354;
+}
+
+.door-color-gray {
+    background-color: #71726a;
+}
+
+
+.door-frame-color-lightyellow {
+    background-color: #99733d;
+}
+
+.door-frame-color-gray {
+    background-color: #555353;
+}
+
+
+.doors-style {
+    display: flex; 
+    align-items: flex-end; 
+    height: 200px;
+}
+
+.right-door {
+    height: 90px; 
+    width: 60px; 
+    border-radius: 0;
+    border-bottom: 0;
+    border: 1px;
+}
+
+.left-door {
+    height: 90px; 
+    width: 60px; 
+
+    border-radius: 0;
+    border-bottom: 0;
+    border: 1px;
+}
+
+.door-frame {
+    height: 95px; 
+    width: 70px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 0;
+    border: 1px solid;
+}
+
+.right-door-frame {
+    height: 95px; 
+    width: 70px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-bottom: 0;
+    border: 1px solid;
+}
+
+.align-right {
+    margin-left: 95.8%;
+    position:fixed;
+}
+
+.align-left {
+    margin-left: 5px;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.white-text {
+    color: white;
+}
+
+.margin-TL-5 {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.margin-bot-0 {
+    margin-bottom: 0;
+}
+
+.tv {
+    width: 280px; 
+    height: 100px; 
+    display:inline-flex;
+    justify-content:center;
+    align-items:flex-end;
+    align-self: center;
+}

@@ -1,0 +1,49 @@
+.bg-color {
+    background-color: #faf0e6;
+}
+
+.box {
+    font-weight: bold;
+    margin-bottom: 10px;
+    background-color: white;
+    justify-self: center;
+    color: black;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    position:relative;
+}
+
+.text-box {
+    border: 2px solid black;
+    background-color: white;
+}
+
+.col-three {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px;  
+    justify-items: center; 
+}
+
+.close-gap {
+    justify-self: center;
+}
+
+.center-align {
+    text-align: center;
+}
+
+.bot-left {
+    padding-inline: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-bottom: 0;
+    border-left: 0;
+}
